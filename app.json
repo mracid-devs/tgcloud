@@ -1,0 +1,39 @@
+{
+  "name": "Tgcloud",
+  "description": "Simple telegram bot to convert files into direct download link.you can use telegram as a file server 🪁",
+  "website": "https://t.me/s/cvxovm",
+  "repository": "https://github.com/mracid-devs/tgcloud",
+  "logo": "https://i.postimg.cc/J0XSxqqM/TGCLOUD.png",
+  "env": {
+    "api_id": {
+      "description": "api_id Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": ""
+    },
+    "api_hash": {
+      "description": "api_hash Telegram to develop a robot to receive my.telegram.org ",
+      "required": "true",
+      "value": ""
+    },
+    "channel_files_chat_id": {
+      "description": " Telegram channel chat ID for storing and managing files",
+      "required": "true",
+      "value": ""
+    },
+    "channel_username": {
+      "description": "Telegram channel username for support",
+      "required": "true",
+      "value": ""
+    },
+    "token": {
+      "description": "Telegram robot token for launch .",
+      "required": "true",
+      "value": ""
+    },
+    "domain": {
+      "description": "Heroku application domain Example: https://testapp.herokuapp.com",
+      "required": "true",
+      "value": ""
+    }
+  }
+}
