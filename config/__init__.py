@@ -7,3 +7,4 @@ class Config:
     CHANNEL_USERNAME = os.getenv("channel_username","testchannel")
     TOKEN = os.getenv("token","xxxxx")
     DOMAIN  = os.getenv("domain","https://testapp.herokuapp.com")
+ 
